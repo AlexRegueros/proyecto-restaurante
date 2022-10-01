@@ -1,75 +1,39 @@
 .header{
 height: 7vh;
-padding-top: 1vh;
-
-
-
 }
 
 .logo{
-    max-width: 60% ;
+    max-width: 35% ;
     border: 0.5vh;
-    margin-left: 4%;
     border-color: rgb(0, 0, 0);
     border-style:outset;
-    
-
-    
-}
-
-body{
-    /* background-image: url(/img/Capture-One-Catalog0260-1-Edit-scaled.jpeg);
-    background-size: 50%;
-    background-repeat: no-repeat; */
-
+    margin-bottom: 2vh; 
+    margin-right: 100vh;
     
 }
+
 
 .start{
     padding: 0%;
-    /* background-image: url(/img/Capture-One-Catalog0260-1-Edit-scaled.jpeg);
-    height: 90vh;
-    background-size: 80%;
-    background-repeat:no-repeat; */
-
+   
 }
 
 .descuento{
     font-size: 65%;
 }
 
-.menu{
-   
-    /* background-color: white; */
+
+
+.franja-menu{
+
+    background-color:rgba(0, 0, 0, 0.84); 
+
 }
 
-.jjj{
-    background-color: red;
-}
 
-.font{
-    color: black;
+
+.buttons{
     font-weight:bolder;
-    /* border-style: outset; */
-    /* border-style: groove; */
-    border: 0ch;
-    margin-left:px;
+    border-radius: 20%;
     
-}
-
-/* .slider-size{
-   height: 60vh;
-   width: 50vw;
-    
-} */
-
-.slider{
-    margin-top: 15vh;
-    /* margin-right: 10vw;
-    margin-left: 35vw;
-    margin-top: 5vh;
-    border: 0.5vh;
-    border-style:double;
-    border-color: black; */
-
 }
