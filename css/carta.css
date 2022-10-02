@@ -1,0 +1,30 @@
+.logo{
+   
+    max-width: 9% ;
+    /* border: 0.5vh;
+    border-color: rgb(0, 0, 0);
+    border-style:outset; */
+}
+
+#titulo{
+    font-style:oblique;
+    font-family:sans-serif;
+    color: white;
+    
+}
+.jj{
+    background-color: rgba(0, 0, 0, 0.874);
+    /* border: 1px;
+    border-color: black;
+    border-style: solid; */
+}
+
+.buttons{
+    font-weight:bolder;
+    border-radius: 20%;
+    
+}
+
+.a{
+    margin-right: 4vh;
+}
