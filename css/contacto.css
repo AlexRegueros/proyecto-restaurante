@@ -1,0 +1,29 @@
+.logo{
+   
+    max-width: 12% ;
+}
+
+.black-line{
+    background-color: rgba(0, 0, 0, 0.874);
+
+}
+
+.home{
+    margin-right: 20vh;
+}
+
+.info{
+
+    border-top: 1vh;
+    border-color: black;
+    border-style: groove;
+ 
+}
+
+#social-media{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+   
+    
+}
