@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RESTAURANTE</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-<!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-    crossorigin="anonymous"></script>
-<!-- Mi estilo -->
-<link rel="stylesheet" href="/css/carta.css">
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <!-- Mi estilo -->
+    <link rel="stylesheet" href="/css/carta.css">
 </head>
+<!-- Cabecera -->
 <body>
     <div class="container-fluid">
         <div class="header text-center">
@@ -22,27 +24,119 @@
         </div>
 
         <div class="row align-items-center">
-            <div class="col d-flex justify-content-evenly align-items-center jj"> 
+            <div class="col d-flex justify-content-evenly align-items-center black-line">
                 <img src="/img/food porn.png" class="img-thumbnail logo" alt="logo">
-                
+
                 <h4 id="titulo"><strong> "DISFRUTA DEL ORGASMO GASTRONÓMICO"</strong></h4>
 
-                <div class="franja-menu">
-                    <a href="  "> <button type="button" class="btn btn-light buttons a">Home</button></a>
+                <div id="buttons">
+                    <a href="  "> <button type="button" class="btn btn-light buttons home">Home</button></a>
                     <a href="  "> <button type="button" class="btn btn-light buttons">Contacto</button></a>
                 </div>
             </div>
-            
-        <div class="row align-items-center">
-            <div class="col"></div>
+        </div>
+<!-- Mensaje de alerta -->
+        <div class="row">
+            <div class="col text-center">
+                <div class="alert alert-dark grey align-items-center" role="alert">
+                    <img class="img-alert" src="/img/bueno.png" alt=""> <strong> El consumo continuado de nuestros
+                        platos puede generar una fuerte adicción </strong><img class="img-alert" src="/img/bueno.png"
+                        alt="">
+                </div>
+            </div>
+        </div>
 
 
-        </div>    
-            
-           
-           
+        <!-- Tarjetas de platos -->
+        <div class="row row-cols-auto align-items-center text-center ">
+            <div class="col a">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body frame-card">
+                        <h4 class="card-title"><b><u> Tostadas Francesas </u></b></h4>
+                        <p class="card-text">Pan brioche de masa madre bañado con leche, huevo ecologico y un toque de
+                            miel</p>
+                        <a href="#" class="btn btn-primary request-button">Añadir por 8,50 €</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col a">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body frame-card">
+                        <h4 class="card-title"><b><u> Tarta de Oreo </u></b></h4>
+                        <p class="card-text">Combinación de galletas oreo con manteqilla de pasto cubierta por una crema
+                            de queso y cacao. </p>
+                        <a href="#" class="btn btn-primary request-button">Añadir por 7,90 €</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col a">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body frame-card">
+                        <h4 class="card-title"><b><u> Tarta Lotus </u></b></h4>
+                        <p class="card-text">Combinación de galletas lotus con mantequilla de pasto cubierta por una
+                            crema de queso y galleta</p>
+                        <a href="#" class="btn btn-primary request-button">Añadir por 7,90€</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col a">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body frame-card">
+                        <h4 class="card-title"><b><u> Tennessee Baos </u></b></h4>
+                        <p class="card-text">Panecillos cocinados al vapor con pollo,alioli, piña , cebolla encurtida, canela y rúcula</p>
+                        <a href="#" class="btn btn-primary request-button">Añadir por 13,90€</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col a">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body frame-card">
+                        <h4 class="card-title"><b><u>Más que curry</u></b></h4>
+                        <p class="card-text">Curry de verduras y pollo con toque picante, elaborado con leche de coco. Acompañado de arroz</p>
+                        <a href="#" class="btn btn-primary request-button">Añadir por 14,90€</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col a">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body frame-card">
+                        <h4 class="card-title"><b><u>Pizza trufada </u></b></h4>
+                        <p class="card-text">Sacada de nuestro horno de piedra, con champiñones portobello, salsa tartufata,
+                            mozzarella y cebolla</p>
+                        <a href="#" class="btn btn-primary request-button">Añadir por 12,90€</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col a">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body frame-card">
+                        <h4 class="card-title"><b><u>La Chulisima Burguer </u></b></h4>
+                        <p class="card-text">Burger con tomate, pepino, lechuga, alioli vegano, cebolla caramelizada y queso scamorza. Con patatas al horno.</p>
+                        <a href="#" class="btn btn-primary request-button">Añadir por 13,90€</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col a">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body frame-card">
+                        <h4 class="card-title"><b><u>Pepito Hipster</u></b></h4>
+                        <p class="card-text">Versión bocadillo con pan de sésamo, alioli, pimiento verde asado y filete vegano con jugo de su caldito</p>
+                        <a href="#" class="btn btn-primary request-button">Añadir por 11,50€</a>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
 
         </div>
+
+
+
+
+
 
 
 
@@ -64,6 +158,7 @@
 
 
     </div>
-    
+
 </body>
+
 </html>
